@@ -1,0 +1,43 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color:#4caf50;
+    margin-right: 15px;
+}
+@keyframes anim {
+  0%   {background-color:lightgreen; left:0px; right:0px;}
+  25%  {background-color:#4caf50; left:200px; right:0px;}
+  50%  {background-color:green; left:200px; right:200px;}
+  75%  {background-color:darkolivegreen; left:0px; right:200px;}
+  100% {background-color:darkgreen; left:0px; right:0px;}
+} 
+
+
+.animation {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: color #4caf50;;
+  animation-name: anim;
+  animation-duration: 4s;
+} 
+
+
+  .names h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 0px;
+  }
+
+  
+  h2{
+    padding-right:2rem;
+  }
+
+  #ult{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 170px;
+  }
+  

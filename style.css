@@ -16,10 +16,10 @@
 .animation {
   width: 100px;
   height: 100px;
-  position: relative;
+  position: fixed;
   background: color #4caf50;;
   animation-name: anim;
-  animation-duration: 4s;
+  animation-duration: 10s;
 } 
 
 
@@ -39,5 +39,10 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 170px;
+    
+  }
+  #ult img{
+    border: 10px solid #4caf50;
+    padding:15px
   }
   
